@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ADS</string>
+    <string name="no_net">The network is not available.</string>
+    <string name="servixe_error">Server error.</string>
+    <string name="unknow_error">An unknown error.</string>
+    <string name="client_request_error">The client request.</string>
+    <string name="redirecting">Redirect, to complete the request, the client need to further refine the request.</string>
+    <string name="request_accept">Said the request has been received, need to continue treatment.</string>
+    <string name="url_is_null">Request path is empty.</string>
+    <string name="bannner_char">Text</string>
+    <string name="banner_pic">Image</string>
+    <string name="banner_video">Video</string>
+    <string name="html">Html5</string>
+    <string name="act_not_find">The Activity was not found.</string>
+</resources>

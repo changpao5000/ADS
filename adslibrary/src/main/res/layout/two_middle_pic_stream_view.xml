@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:text="@string/app_name"/>
+    <TextView
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subtitle01"
+        android:text="@string/app_name"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.baiyigame.adslibrary.imageview.RectangleImageView
+            android:layout_alignLeft="@+id/img_pic_right"
+            android:id="@+id/img_pic_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.baiyigame.adslibrary.imageview.RectangleImageView
+            android:layout_alignRight="@+id/img_pic_left"
+            android:id="@+id/img_pic_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <TextView
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subtitle02"
+        android:text="@string/app_name"
+        android:textColor="@color/white"/>
+</LinearLayout>

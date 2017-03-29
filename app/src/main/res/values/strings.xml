@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ADS</string>
+    <string name="no_net">当前网络不可用</string>
+    <string name="servixe_error">服务器出现错误</string>
+    <string name="unknow_error">未知错误</string>
+    <string name="client_request_error">客户端请求错误</string>
+    <string name="redirecting">重定向，为完成请求，客户端需要进一步细化请求</string>
+    <string name="request_accept">表示请求已接收，需要继续处理</string>
+    <string name="url_is_null">请求路径为空</string>
+    <string name="bannner_char">Text</string>
+    <string name="banner_pic">Image</string>
+    <string name="banner_video">Video</string>
+    <string name="html">Html5</string>
+</resources>

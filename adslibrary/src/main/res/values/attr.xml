@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomShapeImageView">
+        <attr name="shape" format="integer">
+            <enum name="circle" value="1" />
+            <enum name="rectangle" value="2" />
+            <enum name="svg" value="3" />
+        </attr>
+        
+        <attr name="svg_raw_resource" format="reference" />
+        
+    </declare-styleable>
+
+    <declare-styleable name="MyV">
+        <attr name="dotsViewHeight" format="dimension" />
+        <attr name="dotsSpacing" format="dimension" />
+        <attr name="dotsFocusImage" format="reference" />
+        <attr name="dotsBlurImage" format="reference" />
+        <attr name="android:scaleType" />
+        <attr name="android:gravity" />
+        <attr name="dotsBackground" format="reference|color" />
+        <attr name="dotsBgAlpha" format="float" />
+        <attr name="changeInterval" format="integer" />
+    </declare-styleable>
+</resources>
